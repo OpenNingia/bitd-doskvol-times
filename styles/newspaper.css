@@ -1,12 +1,12 @@
 body {
-    font-family: 'OldTypefaces', 'Goudy Old Style', serif;
+    font-family: "Saira Condensed", sans-serif;
     font-size: 14px;
     color: #2f2f2f;
     background-color: #f9f7f1;
 }
 
 header {
-    font-family: 'Kirsty', serif;
+    font-family: "Pirata One", system-ui;
     font-weight: 900;
     font-size: 80px;
     text-transform: uppercase;
@@ -28,7 +28,7 @@ p {
 
 }
 
-.headerobjectswrapper {}
+/* .headerobjectswrapper {} */
 
 .subhead {
     text-transform: uppercase;
@@ -58,6 +58,7 @@ p {
 
 
 }
+
 /*.collumns {}*/
 
 .collumn {
@@ -78,7 +79,7 @@ p {
 .collumn .headline {
     text-align: center;
     line-height: normal;
-    font-family: 'OldNewspaperTypes', serif;
+    font-family: "Cinzel", serif;
     display: block;
     margin: 0 auto;
 
@@ -164,7 +165,7 @@ p {
 }
 
 .collumn .headline.hl6 {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     box-sizing: border-box;
     padding: 10px 0 10px 0;
@@ -219,7 +220,7 @@ p {
 }
 
 .collumn .citation {
-    font-family: 'Goudy Old Style', serif;
+    font-family: "Shadows Into Light", cursive;
     font-size: 36px;
     line-height: 44px;
     /*font-style: italic;*/
