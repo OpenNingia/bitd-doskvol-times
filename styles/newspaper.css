@@ -95,9 +95,9 @@ p {
 }
 
 .collumn .headline.hl2 {
-    font-weight: 400;
+    font-weight: 200;
     font-style: italic;
-    font-size: 24px;
+    font-size: 18px;
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
@@ -221,8 +221,8 @@ p {
 
 .collumn .citation {
     font-family: "Shadows Into Light", cursive;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 28px;
+    line-height: 36px;
     /*font-style: italic;*/
     text-align: center;
     font-weight: 400;
