@@ -72,11 +72,23 @@ p {
     transition: all .7s;
 }
 
+.fullwidth {
+    font-size: 18px;
+    line-height: 20px;
+    width: 100%;
+    display: inline-block;
+    padding: 0 1% 0 1%;
+    vertical-align: top;
+    margin-bottom: 50px;
+    transition: all .7s;
+}
+
+
 .collumn+.collumn {
     border-left: 1px solid #2f2f2f;
 }
 
-.collumn .headline {
+.headline {
     text-align: center;
     line-height: normal;
     font-family: "Cinzel", serif;
@@ -86,7 +98,7 @@ p {
 
 }
 
-.collumn .headline.hl1 {
+.headline.hl1 {
     font-weight: 700;
     font-size: 30px;
     text-transform: uppercase;
@@ -94,7 +106,7 @@ p {
 
 }
 
-.collumn .headline.hl2 {
+.headline.hl2 {
     font-weight: 200;
     font-style: italic;
     font-size: 18px;
@@ -102,7 +114,7 @@ p {
     padding: 10px 0 10px 0;
 }
 
-.collumn .headline.hl2:before {
+.headline.hl2:before {
     border-top: 1px solid #2f2f2f;
     content: '';
     width: 100px;
@@ -111,7 +123,7 @@ p {
     margin: 0 auto;
 }
 
-.collumn .headline.hl2:after {
+.headline.hl2:after {
     border-bottom: 1px solid #2f2f2f;
     content: '';
     width: 100px;
@@ -121,7 +133,7 @@ p {
 
 }
 
-.collumn .headline.hl3 {
+.headline.hl3 {
     font-weight: 400;
     font-style: italic;
     font-size: 36px;
@@ -129,14 +141,14 @@ p {
     padding: 10px 0 10px 0;
 }
 
-.collumn .headline.hl4 {
+.headline.hl4 {
     font-weight: 700;
     font-size: 12px;
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
 
-.collumn .headline.hl4:before {
+.headline.hl4:before {
     border-top: 1px solid #2f2f2f;
     content: '';
     width: 100px;
@@ -145,7 +157,7 @@ p {
     margin: 0 auto;
 }
 
-.collumn .headline.hl4:after {
+.headline.hl4:after {
     border-bottom: 1px solid #2f2f2f;
     content: '';
     width: 100px;
@@ -155,7 +167,7 @@ p {
 
 }
 
-.collumn .headline.hl5 {
+.headline.hl5 {
     font-weight: 400;
     font-size: 42px;
     text-transform: uppercase;
@@ -164,14 +176,14 @@ p {
     padding: 10px 0 10px 0;
 }
 
-.collumn .headline.hl6 {
+.headline.hl6 {
     font-weight: 500;
     font-size: 18px;
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
 
-.collumn .headline.hl6:before {
+.headline.hl6:before {
     border-top: 1px solid #2f2f2f;
     content: '';
     width: 100px;
@@ -180,7 +192,7 @@ p {
     margin: 0 auto;
 }
 
-.collumn .headline.hl6:after {
+.headline.hl6:after {
     border-bottom: 1px solid #2f2f2f;
     content: '';
     width: 100px;
@@ -190,7 +202,7 @@ p {
 
 }
 
-.collumn .headline.hl7 {
+.headline.hl7 {
     font-weight: 700;
     font-size: 12px;
     box-sizing: border-box;
@@ -198,28 +210,28 @@ p {
     padding: 10px 0 10px 0;
 }
 
-.collumn .headline.hl8 {
+.headline.hl8 {
     font-weight: 700;
     font-size: 12px;
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
 
-.collumn .headline.hl9 {
+.headline.hl9 {
     font-weight: 700;
     font-size: 12px;
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
 
-.collumn .headline.hl10 {
+.headline.hl10 {
     font-weight: 700;
     font-size: 12px;
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
 
-.collumn .citation {
+.citation {
     font-family: "Shadows Into Light", cursive;
     font-size: 28px;
     line-height: 36px;
@@ -232,7 +244,7 @@ p {
 
 }
 
-.collumn .citation:before {
+.citation:before {
     border-top: 1px solid #2f2f2f;
     content: '';
     width: 100px;
@@ -241,7 +253,7 @@ p {
     margin: 0 auto;
 }
 
-.collumn .citation:after {
+.citation:after {
     border-bottom: 1px solid #2f2f2f;
     content: '';
     width: 100px;
@@ -250,11 +262,11 @@ p {
     margin: 0 auto;
 }
 
-.collumn .figure {
+.figure {
     margin: 0 0 20px;
 }
 
-.collumn .figcaption {
+.figcaption {
     font-style: italic;
     font-size: 12px;
 }
