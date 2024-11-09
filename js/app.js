@@ -7,7 +7,7 @@ data = {
         },
         {
             "title": "Lettera anonima",
-            "link": "/props/props001.html",
+            "link": "props/props001.html",
             "excerpt": "<ul><li>Un offerta di lavoro</li></ul>"
         }       
     ]
